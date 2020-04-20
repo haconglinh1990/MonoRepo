@@ -8,19 +8,16 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
   View,
   Text,
-  StatusBar,
 } from 'react-native';
+import style from './style';
 
 const App: () => React$Node = () => {
   return (
-      <View >
-        <Text >
-          Welcome to React Native monorepo!
+      <View style={style.container}>
+        <Text style={style.text}>
+          Welcome to React Native monorepo !
         </Text>
       </View>
   );
